@@ -8,3 +8,4 @@ futures-util = { version = "0.3.31", features = ["sink"] }
 http = "1.3.1"
 tokio = { version = "1.44.2", features = ["full"] }
 tokio-websockets = { version = "0.11.4", features = ["client", "fastrand", "server", "sha1_smol"] }
+hyper = { version = "0.14", features = ["full"] }
